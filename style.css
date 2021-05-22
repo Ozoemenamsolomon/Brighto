@@ -110,6 +110,26 @@ main {
 .about-wrapper {
   min-width: 75%;
   background-color: teal;
+  display: flex;
+}
+.about-content {
+  /* background-color: rgb(23, 202, 62); */
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 15%;
+  gap: 1em;
+  text-transform: uppercase;
+  color: white;
+}
+.about-image {
+  width: 50%;
+  background-image: url(images/Brights-home-img.jpeg);
+  /* background-color: rgb(0, 0, 0); */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
 }
 /* ----------------service-sectio---------------- */
 .service-section {
