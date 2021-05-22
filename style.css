@@ -84,7 +84,7 @@ main {
   background-color: #484848;
 }
 
-.home-content h1 {
+.home-content h2 {
   font-size: 4rem;
 }
 .home-content p {
@@ -101,10 +101,10 @@ main {
 
 /* ----------------about-section---------------- */
 .about-section {
-  padding: 6em 0em;
-  background-color: rgb(146, 37, 37);
+  padding: 4em 0em;
+  background-color: rgb(255, 255, 255);
   display: flex;
-  align-items: center;
+  /* align-items: space-between; */
   justify-content: center;
 }
 .about-wrapper {
@@ -120,12 +120,36 @@ main {
   justify-content: center;
   padding-left: 15%;
   gap: 1em;
-  text-transform: uppercase;
-  color: white;
 }
-.about-image {
+.about-content h2 {
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+.about-content p {
+  font-size: x-large;
+}
+.about-content a {
+  width: fit-content;
+  padding: 1em 3em;
+  background-color: gray;
+  color: black;
+  font-weight: bold;
+  border: none;
+  border-radius: 1em;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+.about-content a:hover {
+  background-color: #484848;
+}
+.image-wrapper {
+  height: 100%;
+  background-color: #8b4444;
+}
+.about-img {
   width: 50%;
-  background-image: url(images/Brights-home-img.jpeg);
+  background-image: url(images/Brights-about-img.jpeg);
   /* background-color: rgb(0, 0, 0); */
   background-size: contain;
   background-repeat: no-repeat;
